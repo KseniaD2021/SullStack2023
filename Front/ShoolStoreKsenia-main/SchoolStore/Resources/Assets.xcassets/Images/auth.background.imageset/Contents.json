@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Вход в приложение.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

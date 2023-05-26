@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0St-c2-Rg5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--History-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="History" id="Y6W-OH-hqX" customClass="HistoryVC" customModule="SchoolStore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6pN-GQ-84s">
+                                <rect key="frame" x="0.0" y="88" width="414" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xeh-os-LvD"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="ВСЕ"/>
+                                    <segment title="АКТИВНЫЕ"/>
+                                </segments>
+                                <connections>
+                                    <action selector="tabSegmented:" destination="Y6W-OH-hqX" eventType="valueChanged" id="sZE-uH-WWo"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6pN-GQ-84s" secondAttribute="trailing" id="6Rh-sg-0Rz"/>
+                            <constraint firstItem="6pN-GQ-84s" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="bf0-LR-YV2"/>
+                            <constraint firstItem="6pN-GQ-84s" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="gUO-rh-ya8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mwp-l5-n5u"/>
+                    <connections>
+                        <outlet property="segmentedControl" destination="6pN-GQ-84s" id="XgI-4R-ajC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000.0000000000001" y="94.419642857142847"/>
+        </scene>
+        <!--History-->
+        <scene sceneID="DbY-QG-JOJ">
+            <objects>
+                <navigationController storyboardIdentifier="History" automaticallyAdjustsScrollViewInsets="NO" id="0St-c2-Rg5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="History" image="line.horizontal.star.fill.line.horizontal" catalog="system" id="Naq-8x-yCI"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xMU-LM-OxX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="RGa-L3-XXJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U3M-2u-o50" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89.855072463768124" y="94.419642857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="line.horizontal.star.fill.line.horizontal" catalog="system" width="128" height="92"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

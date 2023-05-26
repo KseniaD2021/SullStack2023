@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="F1R-rg-emb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--History-->
+        <scene sceneID="gEL-vK-Wba">
+            <objects>
+                <viewControllerPlaceholder storyboardName="History" id="WEQ-Mm-SLK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="person.crop.circle.fill" catalog="system" id="A8X-RZ-pps"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tlq-yl-fhl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1504" y="143"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="3XP-VE-NNs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="ncl-bT-TgR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="4fZ-0E-mwZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixa-mR-fN4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1510" y="66"/>
+        </scene>
+        <!--Catalog-->
+        <scene sceneID="KyS-Ov-YiH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Catalog" id="ikN-DQ-G5e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ZgH-ZU-17o"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tcr-wh-rgx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1505" y="101"/>
+        </scene>
+        <!--Tab BarVC-->
+        <scene sceneID="Wp9-SV-3i7">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBar" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="F1R-rg-emb" customClass="TabBarVC" customModule="SchoolStore" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lbJ-VJ-vRw">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="field.error"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ikN-DQ-G5e" kind="relationship" relationship="viewControllers" id="i7p-wS-psW"/>
+                        <segue destination="WEQ-Mm-SLK" kind="relationship" relationship="viewControllers" id="vUA-A8-qjK"/>
+                        <segue destination="ncl-bT-TgR" kind="relationship" relationship="viewControllers" id="51t-Vp-Ap4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CsU-hl-2hG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="794" y="3"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="field.error">
+            <color red="0.92941176470588238" green="0.2627450980392157" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

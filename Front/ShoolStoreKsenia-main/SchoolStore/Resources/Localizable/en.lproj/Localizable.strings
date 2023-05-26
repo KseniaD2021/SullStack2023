@@ -1,0 +1,61 @@
+
+"auth.login" = "Login";
+"auth.password" = "Password";
+"auth.action" = "Sign in";
+
+"common.error" = "Something went wrong \ n Please try again later";
+"common.emptyField" = "The field is empty";
+
+"profile.title" = "Profile";
+
+"catalog.title" = "Catalog";
+"catalog.buy" = "Buy";
+
+"history.title" = "My orders";
+"history.canceled" = "Сanceled";
+"history.inWork" = "Processing";
+
+
+"product.payTitle" = "BUY NOW";
+"product.size" = "Size";
+"product.sizeS" = "S";
+"product.sizeM" = "M";
+"product.sizeL" = "L";
+"product.sizeXL" = "XL";
+"product.badge" = "Hit season";
+
+
+"order.title" = "Checkout";
+"order.apartment" = "Apartment";
+"order.house" = "House";
+"order.orderDate" = "Delivery date";
+"order.payTitle" = "Buy for ";
+
+"editingTitle.title" = "Editing a profile";
+"editingTitle.name" = "Name";
+"editingTitle.surname" = "Surname";
+"editingTitle.occupation" = "Occupation";
+"editingTitle.anotherOccupation" = "Another occupation";
+"editingTitle.action" = "CHANGE";
+"editingTitle.double" = "The occupation has not changed";
+"editingTitle.settings" = "Settings";
+
+"occupation.iosDeveloper" = "IOS developer";
+"occupation.androidDeveloper" = "Android developer";
+"occupation.tester" = "Tester";
+"occupation.another" = "Another";
+
+"action.back" = "Back";
+"action.cancel" = "Cancel";
+"action.exit" = "Exit";
+"action.exitAction" = "Exit";
+"action.delete" = "Deletion";
+"action.deleteAction" = "Delete";
+"action.error" = "Error";
+"action.errorMsg" = "You cannot delete an active order";
+"action.ok" = "Ok";
+
+
+"question.exit" = "Do you want to log out?";
+"question.delete" = "Do you want to delete an order from history?";
+

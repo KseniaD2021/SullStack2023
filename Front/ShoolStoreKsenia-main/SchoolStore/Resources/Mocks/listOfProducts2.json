@@ -1,0 +1,30 @@
+{
+    "data": {
+        "products": [
+            {
+                "id": "1",
+                "title": "Men's Nike J.J. Watt Black Arizona Cardinals Legend Jersey",
+                "department": "Джерси",
+                "price": 9000,
+                "badge": {
+                    "value": "Хит сезона",
+                    "color": "#3C72BF"
+                },
+                "preview": "https://tennismag.com.ua/upload/iblock/ca9/ca91996e4df5b8d2ad7c0355e429c45a.jpg",
+                "images": [
+                    "https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_3888000/altimages/ff_3888062-f848e302bef4a86eff9aalt3_full.jpg&w=900"
+                ],
+                "sizes": [
+                    {
+                        "value": "XL",
+                        "is_available": "true"
+                    }
+                ],
+                "description": "We want fans to celebrate their fandom by customizing and personalizing certain products. For these customizable products, including jerseys, we invite customers to tell us how they would like their preferred name or other text to appear by typing that text into the field indicated. However, just because a customer is able to type proposed customization text into the field and is able to complete the order through the website, not all proposed customization text will be accepted. Please note, Fanatics may reject and cancel any customization order for any reason, including for messages that are deemed offensive or inappropriate. Take your Arizona Cardinals fandom to the next level when you grab this Custom Game Jersey. This Nike gear is perfect for an avid Arizona Cardinals fan like you who never misses a moment of the action. The crisp graphics will put your unwavering pride on full display and ensure everyone knows who you're rooting for at the next game!",
+                "details": [
+                    "Fit: Men's Nike Game Jerseys have a Loose Fit. We recommend ordering one size larger than you normally wear for a looser fit or up two sizes if you plan on layering underneath the jersey."
+                ]
+            }
+        ]
+    }
+}

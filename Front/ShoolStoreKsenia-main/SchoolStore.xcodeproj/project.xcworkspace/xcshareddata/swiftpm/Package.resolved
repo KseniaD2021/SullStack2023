@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "auto-layout-sugar-ios",
+        "repositoryURL": "https://github.com/Heads-and-Hands/auto-layout-sugar-ios",
+        "state": {
+          "branch": null,
+          "revision": "1b57b50cf4e6b7715634df41a565b6d94637ca3d",
+          "version": "1.0.6"
+        }
+      },
+      {
+        "package": "KeychainAccess",
+        "repositoryURL": "https://github.com/kishikawakatsumi/KeychainAccess",
+        "state": {
+          "branch": null,
+          "revision": "84e546727d66f1adc5439debad16270d0fdd04e7",
+          "version": "4.2.2"
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "318e319998bf555c3e914d5c3adb6da05af86a32",
+          "version": "7.1.1"
+        }
+      },
+      {
+        "package": "TTGSnackbar",
+        "repositoryURL": "https://github.com/zekunyan/TTGSnackbar",
+        "state": {
+          "branch": null,
+          "revision": "a9a22eba7471d02abdd1f355baea98ec547de0ae",
+          "version": "1.10.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
